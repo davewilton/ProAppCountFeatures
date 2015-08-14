@@ -1,0 +1,37 @@
+﻿<ArcGIS defaultAssembly="ProAppCountFeatures.dll" defaultNamespace="ProAppCountFeatures" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{6e92ee33-4670-4111-81f3-230f6c4a3357}" version="1.0" desktopVersion="1.1.3308">
+    <Name>ProAppCountFeatures</Name>
+    <Description>ProAppCountFeatures description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>dwilton</Author>
+    <Company>Acme</Company>
+    <Date>8/11/2015 8:10:15 AM, 2015</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ProAppModule1_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ProAppModule1_Tab1" caption="New Tab">
+          <group refID="ProAppModule1_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ProAppModule1_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="ProAppModule1_BtnCountPoints" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="ProAppModule1_BtnCountPoints" caption="Count Points " className="BtnCountPoints" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="Count Features">Count features in the first feature layer of map<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

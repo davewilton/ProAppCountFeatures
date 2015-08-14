@@ -1,0 +1,6 @@
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\obj\Debug\ProAppModule1.csprojResolveAssemblyReference.cache
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\bin\Debug\ProAppCountFeatures.dll
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\bin\Debug\ProAppCountFeatures.pdb
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\obj\Debug\ProAppCountFeatures.dll
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\obj\Debug\ProAppCountFeatures.pdb
+C:\Workspaces\DWTFS\TestModules2\ProAppModule1\ProAppModule1\bin\Debug\ProAppCountFeatures.esriAddInX
